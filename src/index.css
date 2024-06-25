@@ -1,0 +1,885 @@
+html{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+   
+    padding: 2% 5%;
+    
+
+}
+
+#logo{
+    padding-top: 30px;
+    width: 40px;
+    height: 40px;
+    padding-right: 150px;
+    padding-left: 20px;
+}
+nav p{
+    
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    border: 15px;
+    
+    
+    cursor: pointer;
+    
+}
+
+#name{
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-weight: 300;
+    padding-top: 1PX;
+    font-size: 30px;
+    padding-right: 80px;
+}
+#search{
+    background-color:rgba(0, 0, 0, 0.749);
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    height: 15px;
+    
+    
+    
+}
+nav p:hover{
+    color: red;
+}
+#show{
+    justify-content: center;
+    text-align: center;
+}
+#show img{
+    display: inline;
+    
+    align-items: center;
+    
+    width: 300px;
+    padding-left:10px;
+    padding-right: 10px;
+
+}
+#show img:hover{
+    width: 310px;
+    transition: 0.80s ;
+    
+
+}
+#txt1
+{
+    padding-top: 30px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+#txt2{
+    color: rgb(230, 42, 80);
+}
+
+#bimg{
+    justify-content: center;
+    text-align: center;
+    
+
+
+
+}
+#bimgm{
+    width: 80%;
+    padding: 5%;
+    height: fit-content;
+    border-radius: 70%;
+    border-end-start-radius: 10%;
+    cursor: pointer;
+}
+#bimgm:hover{
+    border-start-end-radius: 10%;
+    transition: 0.75s ease;
+}
+
+
+
+
+
+
+
+
+
+#mens{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 20px;
+    
+
+
+}
+#pm{
+    cursor: pointer;
+}
+#pf{
+    color: rgb(230, 42, 80);
+}
+
+#pfs{
+    color: blueviolet;
+}
+
+#s1{
+    color:  rgb(230, 42, 80);
+}
+#m2 img{
+    width: 350px;
+    padding: 4%;
+    height: fit-content;
+}
+#m2 img:hover{
+    width: 370px;
+   transition: 0.75s ease;
+
+}
+
+#img1{
+    
+    height: 15px;
+}
+#hoodie{
+    width: 1300px;
+    padding: 1%;
+    cursor: pointer;
+}
+#hoodie:hover{
+    width: 1320px;
+    transition: 0.9s ease;
+}
+#coat{
+    width: 1100px;
+    padding: 3%;
+    cursor: pointer;
+
+}
+#coat:hover{
+    width: 1120px;
+    transition: 0.9s ease;
+}
+
+
+
+#wmens{
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 20px;
+    
+
+
+}
+#wpm{
+    cursor: pointer;
+}
+#wpf{
+    color: rgb(230, 42, 80);
+}
+
+#wpfs{
+    color: blueviolet;
+}
+
+#ws1{
+    color:  rgb(230, 42, 80);
+}
+#wm2 img{
+    width: 350px;
+    padding: 4%;
+    height: fit-content;
+}
+#wm2 img:hover{
+    width: 370px;
+   transition: 0.75s ease;
+
+}
+
+#wimg1{
+
+    height: 15px;
+}
+#whoodie{
+    width: 1300px;
+    padding: 3%;
+    cursor: pointer;
+}
+#whoodie:hover{
+    width: 1320px;
+    transition: 0.9s ease;
+}
+#wcoat{
+    width: 1100px;
+    padding: 3%;
+    cursor: pointer;
+
+}
+#wcoat:hover{
+    width: 1120px;
+    transition: 0.9s ease;
+}
+
+
+
+
+
+
+
+#accimg{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+#accimg img{
+    padding: 3%;
+  
+    width: 500px;
+    cursor: pointer;
+}
+#accimg img:hover{
+    width: 530px;
+    transition: 0.75s ease;
+}
+#ac{
+    cursor: pointer;
+    padding-top: 20px;
+}
+#r1 p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+#r1 span{
+    color: blueviolet;
+
+}
+#accimg p{
+    font-size: 25px;
+    
+
+}
+
+
+
+
+
+about
+
+#about 
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-colors: rgba(0, 0, 0, 0.74);
+}
+
+#about p{
+    text-align: center;
+    
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#social{
+    text-align: center;
+    font-size: 30px;
+    padding: 0%;
+    
+}
+#social a{
+    padding: 0.5%;
+    font-weight: 600;
+    color: red;
+}
+#linked{
+    color: blue;
+}
+#fp
+{
+    background-color: rgba(14, 10, 10, 0.708);
+    color: white;
+    padding-bottom: 0%;
+
+}
+#abouttit #abt1{
+    padding-top: 30px;
+    color:red;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+
+
+#show {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block; /* Ensure image is a block element */
+    width: 300px; /* Maintain the original width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; /* Optional: round the corners */
+    /* No scaling on hover */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(43, 62, 206, 0.785)); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    text-align: center; /* Center the text */
+    font-size: 1.2em; /* Adjust the text size */
+    padding: 10px; /* Add some padding for better readability */
+    border-radius: 10px; /* Match the rounded corners */
+}
+
+.image-container:hover .text-overlay {
+    
+    opacity: 1; /* Show the text overlay on hover */
+
+
+}
+
+.bigimgcontainer {
+    position: relative;
+    display: inline-block;
+}
+.bigimgcontainer img{
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#textonimg{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    display: flex;
+    width: 25%;
+    height: 30%;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(43, 62, 206, 0.785));;
+    background-blend-mode: color-burn;
+    
+}
+
+.bigimgcontainer:hover #textonimg {
+    opacity: 100%;
+    border-end-start-radius: 10%;
+    border-start-end-radius: 10%;
+   
+
+}
+
+.menimgcon{
+    position: relative;
+    display: inline-block;
+    padding: 60px;
+}
+.menimgcon .txtonmenimg{
+    position:absolute;
+    top: 30%;
+    border-radius: 5%;
+    left: 27%;
+    font-size: 20px;
+    padding: 20px;
+    height: 40%;
+    align-content: center;
+    color:white;
+    background : linear-gradient(rgba(0,0,0,0.3), black);
+    opacity: 0;
+    cursor: pointer;
+    
+
+    
+}
+
+.menimgcon .txtonmenimg:hover{
+    transition: 1.2s ease-out;
+    
+    
+    opacity: 100%;
+}
+.hoodimg{
+    position: relative;
+    display: inline-block;
+    
+}
+
+#txtonhood{
+    position: absolute;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.1),rgb(19, 17, 17));
+    top: 17%;
+    left: 20%;
+    padding: 20px;
+    width: 60%;
+    height: 60%;
+    border-radius: 2%;
+    cursor: pointer;
+    opacity: 0;
+}
+#txtonhood:hover{
+    opacity: 100;
+    transition: 1.2s ease-out;
+}
+
+    
+.watchim{
+    position: relative;
+    display:inline-flex ;
+    
+    padding: 60px;
+}
+
+.txtonacc{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    color: white;
+    width: 70%;
+    border-radius: 6%;
+    opacity: 0;
+    font-size: 50px;
+    font-weight: 500;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(43, 62, 206, 0.785));;
+    cursor: pointer;
+}
+
+.txtonacc:hover{
+    opacity: 100;
+    transition: 1.2s ease-out;
+
+}
+
+
+
+
+.bb{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+#bform table{
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 30%;
+    
+}
+
+#bform table td{
+    padding: 10px;
+}
+
+#bform table td input{
+    background-color: rgba(36, 32, 32, 0.806);
+    color: #fff;
+}
+#bbutton{
+    color:rgb(255, 255, 255);
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    
+    width: 70px;
+    height: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+    
+}
+
+#topicbuy{
+    color: blueviolet;
+    font-size: 60px;
+}
+
+#spanbuy{
+    color: red;
+}
+#buytit{
+    color:rgb(75, 196, 19);
+    font-size: 30px;
+}
+
+
+
+
+.womencon{
+    position:relative;
+    display: inline-flex;
+    padding: 60px;
+
+}
+.txtonwomen{
+    position: absolute;
+    width: 40%;
+    
+    top: 33%;
+    left: 32%;
+    color: #fff;
+    background : linear-gradient(rgba(0,0,0,0.6), black);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 2%;
+    opacity: 0;
+    cursor: pointer;
+   
+
+}
+
+.txtonwomen:hover{
+    opacity: 100;
+    transition: 1.2s ease-out;
+}
+
+.old{
+    position: relative;
+}
+.oldwomen{
+    position: absolute;
+    top:30%;
+    padding: 20px;
+    left: 35%;
+
+    background: linear-gradient(rgba(37, 53, 230, 0.936),black);
+    color: #fff;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+.oldwomen:hover{
+    opacity: 100;
+    transition: 1.0s ease-out;
+}
+
+#sidetit{
+    padding-left: 60px;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 20px;
+}
+#address{
+    background-color: rgba(36, 32, 32, 0.806);
+}
+
+#result{
+    font-size: 45px;
+    color: green;
+    font-weight: 700;
+}
+.nnn{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------for small screeen-------*/
+@media only screen and (max-width: 600px)
+{
+    nav{
+        display:inline-block;
+        
+       
+        
+        
+    
+    }
+
+    nav p{
+    
+        color: black;
+        font-size: 18px;
+        padding: 3px;
+        padding-left: 180px;
+        border: 15px;
+        
+        
+        cursor: pointer;
+        
+    }
+    #name{
+        display: none;
+       
+    }
+    .nnn{
+        display: block;
+        font-size: 30px;
+        text-align: center;
+    }
+    #logo
+    {
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+    }
+    #show {
+        
+        
+        display: block;
+        align-items: center;
+        
+        width: 200px;
+        padding-left:20px;
+        padding-right: 10px;
+    
+    }
+
+    #show img{
+       padding: 20px;
+       align-items: center;
+        
+       
+
+    }
+    #m2 img{
+        width: 325px;
+        
+        align-items: center;
+        justify-content: center;
+        padding-left: px;
+        height: fit-content;
+    }
+    .menimgcon{
+        position: relative;
+        display: inline-block;
+        padding: 5px;
+    }
+    .menimgcon .txtonmenimg{
+        position:absolute;
+        top: 30%;
+        border-radius: 5%;
+        left: 17.5%;
+        font-size: 20px;
+        padding: 20px;
+        height: 40%;
+        align-content: center;
+        color:white;
+        background : linear-gradient(rgba(0,0,0,0.3), black);
+        opacity: 0;
+        cursor: pointer;
+        
+    
+        
+    }
+    #m2 img:hover{
+        width: 330px;
+       transition: 0.75s ease;
+    
+    }
+    .hoodimg{
+        position: relative;
+        display: inline-block;
+        
+    }
+    #hoodie{
+        width: 330px;
+        padding: 3%;
+        cursor: pointer;
+    }
+    #hoodie:hover{
+        width: 350px;
+        transition: 0.9s ease;
+    }
+    #txtonhood{
+        position: absolute;
+        color: #fff;
+        background: linear-gradient(rgba(0,0,0,0.1),rgb(19, 17, 17));
+        top: 22%;
+        left: 26%;
+        padding: 20px;
+        width: 38%;
+        height: 30%;
+        border-radius: 2%;
+        cursor: pointer;
+        opacity: 0;
+        font-size: 10px;
+    }
+    .womencon{
+        position:relative;
+        display: inline-flex;
+        padding: 29px;
+    
+    }
+    #wm2 img{
+        width: 330px;
+        
+        padding: 0%;
+        height: fit-content;
+    }
+    #wm2 img:hover{
+        width: 335px;
+       transition: 0.75s ease;
+    
+    }
+    #whoodie{
+        width: 340px;
+        padding: 7%;
+        cursor: pointer;
+    }
+    #whoodie:hover{
+        width: 345px;
+        transition: 0.9s ease;
+    }
+    .txtonwomen{
+        position: absolute;
+        width: 50%;
+        
+        top: 28%;
+        left: 22%;
+        color: #fff;
+        background : linear-gradient(rgba(0,0,0,0.6), black);
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 2%;
+        opacity: 0;
+        cursor: pointer;
+       
+    
+    }
+    
+    .txtonwomen:hover{
+        opacity: 100;
+        transition: 1.2s ease-out;
+    }
+    .oldwomen{
+        position: absolute;
+        top:27%;
+        padding: 20px;
+        left: 35%;
+        font-size: 10px;
+    
+        background: linear-gradient(rgba(37, 53, 230, 0.936),black);
+        color: #fff;
+        border-radius: 20px;
+        opacity: 0;
+    }
+    #accimg img{
+        padding: 1%;
+      
+        width: 350px;
+        cursor: pointer;
+    }
+    #accimg img:hover{
+        width: 530px;
+        transition: 0.75s ease;
+    }
+    .watchim{
+        position: relative;
+        display:inline-flex ;
+        
+        padding: 12px;
+    }
+    #r1 p{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        padding-left: 34px;
+    
+    }
+    #r1 span{
+        color: blueviolet;
+    
+    }
+    #bform table{
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding-left: 2%;
+        
+    }
+    
+    #bform table td{
+        padding: 10px;
+    }
+    #topicbuy{
+        color: blueviolet;
+        font-size: 30px;
+        padding-left: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    #about p{
+        text-align: center;
+        
+        color: black;
+        font-size: 20px;
+        padding-left: 3%;
+        font-weight: 300;
+    }
+    #footer p{
+        width: 103%;
+    }
+    
+
+}
