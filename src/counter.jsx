@@ -1,4 +1,9 @@
 import React,{useState} from "react";
+import s1Image from './img/s1.jpg';
+import s2Image from './img/s2.jpg';
+import s3Image from './img/s3.jpg';
+import a2Image from './img/a2.jpg';
+
 
 function Home()
 {
@@ -11,17 +16,18 @@ function Home()
 
 
             </div>
+            
             <div id="show">
                 <div className="image-container">
-                    <img src="img/s1.jpg" alt="Image 1" />
+                <img src={s1Image} alt="" />
                     <div className="text-overlay">Discover the latest trends!</div>
                 </div>
                 <div className="image-container">
-                    <img src="img/s2.jpg" alt="Image 2" />
+                <img src={s2Image} alt="" />
                     <div className="text-overlay">Shop our new collection!</div>
                 </div>
                 <div className="image-container">
-                    <img src="img/s3.jpg" alt="Image 3" />
+                <img src={s3Image} alt="" />
                     <div className="text-overlay">Unleash your style!</div>
                 </div>
             </div>
@@ -31,7 +37,7 @@ function Home()
 
             <div id="bimg">
                 <div className="bigimgcontainer">
-                <img id="bimgm"src="img/a2.jpg" alt="" />
+                <img id="bimgm"src={a2Image} alt="" />
                 <div id="textonimg">Live Sale!</div>
                 </div>
                 

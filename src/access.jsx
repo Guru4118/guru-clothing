@@ -1,4 +1,7 @@
-
+import g1 from "./img/Accessories/g1.jpg"
+import g2 from "./img/Accessories/g2.jpg"
+import g3 from "./img/Accessories/g3.jpg"
+import g4 from "./img/Accessories/g4.jpg"
 function Accessorie()
 {
     return(
@@ -9,7 +12,7 @@ function Accessorie()
             </div>
             <div id="accimg">
                 <div className="watchim">
-                <img src="img/Accessories/g1.jpg" alt="" />
+                <img src={g1} alt="" />
                 <div className="txtonacc">
                     <p>Product : Watch</p>
                     <p>Cost : 15000
@@ -20,7 +23,7 @@ function Accessorie()
 
 
                 <div className="watchim">
-                <img src="img/Accessories/g2.jpg" alt="" />
+                <img src={g2} alt="" />
                 <div className="txtonacc">
                     <p>Product : Ring</p>
                     <p>Cost : 150
@@ -31,7 +34,7 @@ function Accessorie()
 
 
                 <div className="watchim">
-                <img src="img/Accessories/g3.jpg" alt="" />
+                <img src={g3} alt="" />
                 <div className="txtonacc">
                     <p>Product : Hand Bag</p>
                     <p>Cost : 1500</p>
@@ -43,7 +46,7 @@ function Accessorie()
 
 
                 <div className="watchim">
-                <img src="img/Accessories/g4.jpg" alt="" />
+                <img src={g4} alt="" />
                 <div className="txtonacc">
                     <p>Product : Neck Chain</p>
                     <p>Cost : 1000</p>

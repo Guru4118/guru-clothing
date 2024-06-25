@@ -1,5 +1,13 @@
 import { useState } from "react";
 import React from "react";
+import m11 from "./img/men/m11.jpg"
+import m2 from "./img/men/m2.jpg"
+import m3 from "./img/men/m3.jpg"
+
+import m33 from "./img/men/m33.jpg"
+import m00 from "./img/men/m00.jpg"
+import m22 from "./img/men/m22.jpg"
+import m23 from "./img/men/m23.jpg"
 
 function Men()
 {
@@ -17,7 +25,7 @@ function Men()
 
 
             <div className="menimgcon">
-                <img id="img1" src="img/men/m11.jpg" alt="" />
+                <img id="img1" src={m11} alt="" />
                 <div className="txtonmenimg"> 
                 <p>Winter Wear</p>
                 <p>Cost : 7500</p>
@@ -28,7 +36,7 @@ function Men()
                 </div>
 
                 <div className="menimgcon">
-                <img src="img/men/m2.jpg" alt="" />
+                <img src={m2} alt="" />
 
                 <div className="txtonmenimg"> 
                 <p>Free Style</p>
@@ -41,7 +49,7 @@ function Men()
 
 
                 <div className="menimgcon">
-                <img id="img1" src="img/men/m3.jpg" alt="" />
+                <img id="img1" src={m3} alt="" />
                 <div className="txtonmenimg"> 
                 <p>Street Wear</p>
                 <p>Cost : 3500</p>
@@ -60,7 +68,7 @@ function Men()
 
             <div id="m33">
                 <div className="hoodimg">
-                <img src="img/men/m33.jpg" id="hoodie"alt="" />
+                <img src={m33} id="hoodie"alt="" />
                 <div id="txtonhood"><p>Hoodies And Sweatshirts</p>
                 <p>Cost : 2500</p>
                 <p>Product Code : H11 </p>
@@ -72,7 +80,7 @@ function Men()
 
             <div id="m2">
                 <div className="menimgcon">
-                <img id="img1" src="img/men/m00.jpg" alt="" />
+                <img id="img1" src={m00} alt="" />
                 <div className="txtonmenimg">
                 <p>Formals</p>
                 <p>Cost : 2700</p>
@@ -83,7 +91,7 @@ function Men()
 
 
                 <div className="menimgcon">
-                <img src="img/men/m22.jpg" alt="" />
+                <img src={m22} alt="" />
 
                 <div className="txtonmenimg">
                 <p>Beach Wear</p>
@@ -95,7 +103,7 @@ function Men()
 
 
                 <div className="menimgcon">
-                <img src="img/men/m23.jpg" alt="" />
+                <img src={m23} alt="" />
                 <div className="txtonmenimg">
                 <p>Suit</p>
                 <p>Cost : 5600</p>

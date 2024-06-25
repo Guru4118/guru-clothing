@@ -1,3 +1,13 @@
+import wm111 from "./img/women/wm111.jpg"
+import wm2 from "./img/women/wm2.jpg"
+import wm3 from "./img/women/wm3.jpg"
+import wm33 from "./img/women/wm33.jpg"
+import wm00 from "./img/women/wm00.jpg"
+import wm22 from "./img/women/wm22.jpg"
+import wm23 from "./img/women/wm23.jpg"
+
+
+
 function Women()
 {
     return(
@@ -12,7 +22,7 @@ function Women()
 
         <div id="wm2">
             <div className="womencon">
-            <img id="wimg1" src="img/women/wm111.jpg" alt="" />
+            <img id="wimg1" src={wm111} alt="" />
             <div className="txtonwomen">
             <p>Airpot Look</p>
                 <p>Cost : 8600</p>
@@ -23,7 +33,7 @@ function Women()
             </div>
 
             <div className="womencon">
-            <img src="img/women/wm2.jpg" alt="" />
+            <img src={wm2} alt="" />
             <div className="txtonwomen">
             <p>Free Style</p>
                 <p>Cost : 2600</p>
@@ -35,7 +45,7 @@ function Women()
 
 
             <div className="womencon">
-            <img src="img/women/wm3.jpg" alt="" />
+            <img src={wm3} alt="" />
             <div className="txtonwomen">
             <p>Party Wear</p>
                 <p>Cost : 6000</p>
@@ -50,7 +60,7 @@ function Women()
 
         <div id="wm33">
             <div className="old">
-            <img src="img/women/wm33.jpg" id="whoodie"alt="" />
+            <img src={wm33} id="whoodie"alt="" />
             <div className="oldwomen">
             <p>Old Money </p>
                 <p>Cost : 9700</p>
@@ -66,7 +76,7 @@ function Women()
 
 
             <div className="womencon">
-            <img id="wimg1" src="img/women/wm00.jpg" alt="" />
+            <img id="wimg1" src={wm00} alt="" />
             <div className="txtonwomen">
             <p>Free Style</p>
                 <p>Cost : 6000</p>
@@ -76,7 +86,7 @@ function Women()
             </div>
             </div>
             <div className="womencon">
-            <img src="img/women/wm22.jpg" alt="" />
+            <img src={wm22} alt="" />
             <div className="txtonwomen">
             <p>Street Wear</p>
                 <p>Cost : 6000</p>
@@ -86,7 +96,7 @@ function Women()
             </div>
             </div>
             <div className="womencon">
-            <img src="img/women/wm23.jpg" alt="" />
+            <img src={wm23} alt="" />
             <div className="txtonwomen">
             <p>Formals</p>
                 <p>Cost : 6000</p>
