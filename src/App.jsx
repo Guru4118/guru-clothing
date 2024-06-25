@@ -5,7 +5,7 @@ import Women from "./women.jsx";
 import Accessorie from "./access.jsx";
 import About from "./about.jsx";
 import Buy from "./buy.jsx";
-
+import icon from "./img/icon.png"
 function App() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -22,7 +22,7 @@ function App() {
   
     </div>
      <nav>
-            <img id="logo" src="img/icon.png" alt="" />
+            <img id="logo" src={icon} alt="" />
             <p id="name">Sins clothing</p>
            
             
