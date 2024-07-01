@@ -290,7 +290,7 @@ about
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-colors: rgba(0, 0, 0, 0.74);
+   
 }
 
 #about p{
@@ -820,11 +820,11 @@ about
     #accimg img{
         padding: 1%;
       
-        width: 350px;
+        width: 340px;
         cursor: pointer;
     }
     #accimg img:hover{
-        width: 530px;
+        width: 345px;
         transition: 0.75s ease;
     }
     .watchim{
@@ -880,6 +880,10 @@ about
     #footer p{
         width: 103%;
     }
+    .txtonacc{
+        top: 13%;
+    }
     
+   
 
 }
